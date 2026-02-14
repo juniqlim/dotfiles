@@ -51,7 +51,7 @@
 font-family = "FiraCode Nerd Font Propo"
 font-family = "D2Coding"
 font-style = "Retina"
-font-size = 12
+font-size = 16
 theme = GitHub Dark Dimmed
 background = 000000
 foreground = e6edf3
