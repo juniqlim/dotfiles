@@ -13,8 +13,6 @@ ln -sf "$DOTFILES_DIR/ghostty/config" "$HOME/Library/Application Support/com.mit
 mkdir -p "$HOME/.claude"
 ln -sf "$DOTFILES_DIR/claude/settings.json" "$HOME/.claude/settings.json"
 ln -sf "$DOTFILES_DIR/claude/sync-sessions.sh" "$HOME/.claude/sync-sessions.sh"
-# clone sessions repo into projects dir if not exists
-[ ! -d "$HOME/.claude/projects/.git" ] && git clone https://github.com/juniqlim/claude-sessions.git "$HOME/.claude/projects"
 
 # shortcut
 ln -sf "$HOME/develop/code/juniqlim" "$HOME/j"

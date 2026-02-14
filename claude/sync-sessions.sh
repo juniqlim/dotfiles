@@ -1,13 +1,21 @@
 #!/bin/bash
 
 SESSIONS_DIR="$HOME/.claude/projects"
-
-# init or clone into sessions dir
-if [ ! -d "$SESSIONS_DIR/.git" ]; then
-  git clone https://github.com/juniqlim/claude-sessions.git "$SESSIONS_DIR"
-fi
+REMOTE="https://github.com/juniqlim/claude-sessions.git"
 
 cd "$SESSIONS_DIR"
+
+# init repo if not exists, preserving existing files
+if [ ! -d ".git" ]; then
+  git init
+  git remote add origin "$REMOTE"
+  git fetch origin
+  git checkout -b main
+  git add -A
+  git commit -m "init local sessions" 2>/dev/null
+  git merge origin/main --allow-unrelated-histories --no-edit 2>/dev/null
+  git push -u origin main
+fi
 
 # pull remote sessions
 git pull --rebase 2>/dev/null
