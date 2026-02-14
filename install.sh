@@ -9,6 +9,10 @@ ln -sf "$DOTFILES_DIR/.zshrc" "$HOME/.zshrc"
 mkdir -p "$HOME/Library/Application Support/com.mitchellh.ghostty"
 ln -sf "$DOTFILES_DIR/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
 
+# claude code
+mkdir -p "$HOME/.claude"
+ln -sf "$DOTFILES_DIR/claude/settings.json" "$HOME/.claude/settings.json"
+
 # shortcut
 ln -sf "$HOME/develop/code/juniqlim" "$HOME/j"
 
