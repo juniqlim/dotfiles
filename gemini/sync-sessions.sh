@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SESSIONS_DIR="$HOME/.gemini/tmp"
-REMOTE="https://github.com/juniqlim/gemini-sessions.git"
+REMOTE="git@github.com:juniqlim/gemini-sessions.git"
 
 mkdir -p "$SESSIONS_DIR"
 cd "$SESSIONS_DIR"
