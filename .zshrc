@@ -1,0 +1,45 @@
+export PYTHON_PATH=/usr/local/bin/python3
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+export PATH="/Users/juniq/.jenv/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/Users/juniq/.jenv/shims:$PYTHON_PATH:${PATH}"
+export JENV_SHELL=zsh
+export JENV_LOADED=1
+unset JAVA_HOME
+source '/opt/homebrew/Cellar/jenv/0.5.4/libexec/libexec/../completions/jenv.zsh'
+jenv rehash 2>/dev/null
+jenv refresh-plugins
+jenv() {
+  typeset command
+  command="$1"
+  if [ "$#" -gt 0 ]; then
+    shift
+  fi
+
+  case "$command" in
+  enable-plugin|rehash|shell|shell-options)
+    eval `jenv "sh-$command" "$@"`;;
+  *)
+    command jenv "$command" "$@";;
+  esac
+}
+eval "$(pyenv init -)"
+
+# Added by Antigravity
+export PATH="/Users/juniq/.antigravity/antigravity/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+# Claude Code alias
+alias cl='claude'
+alias clt="claude --dangerously-skip-permissions"
+alias cc="claude --dangerously-skip-permissions"
+alias cx="codex --dangerously-bypass-approvals-and-sandbox"
+alias ge="gemini -y"
+alias aa='cd ~/ai-agent'
+alias ccs="bun /Users/juniq/develop/code/juniqlim/claude-skin/src/index.tsx --effort low --append-system-prompt 'PC통신체로 짧게 답변' --dangerously-skip-permissions"
+
+# Helper functions
+ccc() { cd ~/cc && cc; }
+jicc() { cd ~/j/note/investment && cc; }
+jncc() { cd ~/j/note && cc; }
