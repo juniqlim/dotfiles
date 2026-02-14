@@ -18,6 +18,10 @@ ln -sf "$DOTFILES_DIR/claude/sync-sessions.sh" "$HOME/.claude/sync-sessions.sh"
 mkdir -p "$HOME/.codex"
 ln -sf "$DOTFILES_DIR/codex/sync-sessions.sh" "$HOME/.codex/sync-sessions.sh"
 
+# gemini
+mkdir -p "$HOME/.gemini"
+ln -sf "$DOTFILES_DIR/gemini/sync-sessions.sh" "$HOME/.gemini/sync-sessions.sh"
+
 # shortcut
 ln -sf "$HOME/develop/code/juniqlim" "$HOME/j"
 
