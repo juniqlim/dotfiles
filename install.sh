@@ -14,6 +14,10 @@ mkdir -p "$HOME/.claude"
 ln -sf "$DOTFILES_DIR/claude/settings.json" "$HOME/.claude/settings.json"
 ln -sf "$DOTFILES_DIR/claude/sync-sessions.sh" "$HOME/.claude/sync-sessions.sh"
 
+# codex
+mkdir -p "$HOME/.codex"
+ln -sf "$DOTFILES_DIR/codex/sync-sessions.sh" "$HOME/.codex/sync-sessions.sh"
+
 # shortcut
 ln -sf "$HOME/develop/code/juniqlim" "$HOME/j"
 
