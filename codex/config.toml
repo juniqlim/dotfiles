@@ -1,0 +1,9 @@
+model = "gpt-5.3-codex"
+[projects."/Users/juniq/ai-agent"]
+trust_level = "trusted"
+
+[notice.model_migrations]
+"gpt-5.2-codex" = "gpt-5.3-codex"
+
+[tui]
+status_line = ["current-dir", "context-remaining", "five-hour-limit", "weekly-limit"]
