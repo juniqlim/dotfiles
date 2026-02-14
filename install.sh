@@ -12,6 +12,7 @@ ln -sf "$DOTFILES_DIR/ghostty/config" "$HOME/Library/Application Support/com.mit
 # claude code
 mkdir -p "$HOME/.claude"
 ln -sf "$DOTFILES_DIR/claude/settings.json" "$HOME/.claude/settings.json"
+ln -sf "$DOTFILES_DIR/claude/sync-sessions.sh" "$HOME/.claude/sync-sessions.sh"
 
 # shortcut
 ln -sf "$HOME/develop/code/juniqlim" "$HOME/j"
