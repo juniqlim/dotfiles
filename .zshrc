@@ -32,14 +32,25 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Claude Code alias
 alias cl='claude'
-alias clt="claude --dangerously-skip-permissions"
 alias cc="claude --dangerously-skip-permissions"
 alias cx="codex --dangerously-bypass-approvals-and-sandbox"
 alias ge="gemini -y"
 alias aa='cd ~/ai-agent'
+alias jn='cd ~/j/note'
 alias ccs="bun /Users/juniq/develop/code/juniqlim/claude-skin/src/index.tsx --effort low --append-system-prompt 'PC통신체로 짧게 답변' --dangerously-skip-permissions"
+export NODE_OPTIONS='--no-deprecation'
+
+# bun completions
+[ -s "/Users/juniq/.bun/_bun" ] && source "/Users/juniq/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Helper functions
 ccc() { cd ~/cc && cc; }
 jicc() { cd ~/j/note/investment && cc; }
 jncc() { cd ~/j/note && cc; }
+aac() { cd ~/ai-agent && cc; }
+aax() { cd ~/ai-agent && cx; }
+jpcc() { cd ~/j/note/programming && cc; }
