@@ -23,6 +23,9 @@ ln -sf "$DOTFILES_DIR/codex/sync-sessions.sh" "$HOME/.codex/sync-sessions.sh"
 mkdir -p "$HOME/.gemini"
 ln -sf "$DOTFILES_DIR/gemini/sync-sessions.sh" "$HOME/.gemini/sync-sessions.sh"
 
+# iterm2
+"$DOTFILES_DIR/iterm2/setup.sh"
+
 # shortcut
 ln -sf "$HOME/develop/code/juniqlim" "$HOME/j"
 
