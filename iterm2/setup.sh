@@ -13,6 +13,11 @@ DYNAMIC_PROFILES_DIR="$HOME/Library/Application Support/iTerm2/DynamicProfiles"
 mkdir -p "$DYNAMIC_PROFILES_DIR"
 cp "$SCRIPT_DIR/profile.json" "$DYNAMIC_PROFILES_DIR/profile.json"
 
+# Shell Integration (명령 완료 시 알림 등에 필요)
+if [ ! -f "$HOME/.iterm2_shell_integration.zsh" ]; then
+  curl -L https://iterm2.com/shell_integration/zsh -o "$HOME/.iterm2_shell_integration.zsh"
+fi
+
 # Thin Strokes: 0=Never
 defaults write com.googlecode.iterm2 AppleFontSmoothing -int 0
 
