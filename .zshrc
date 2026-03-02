@@ -37,6 +37,7 @@ alias cx="codex --dangerously-bypass-approvals-and-sandbox"
 alias ge="gemini -y"
 alias aa='cd ~/ai-agent'
 alias jn='cd ~/j/note'
+alias df='cd ~/j/dotfiles'
 alias ccs="bun /Users/juniq/develop/code/juniqlim/claude-skin/src/index.tsx --effort low --append-system-prompt 'PC통신체로 짧게 답변' --dangerously-skip-permissions"
 export NODE_OPTIONS='--no-deprecation'
 
@@ -54,3 +55,6 @@ jncc() { cd ~/j/note && cc; }
 aac() { cd ~/ai-agent && cc; }
 aax() { cd ~/ai-agent && cx; }
 jpcc() { cd ~/j/note/programming && cc; }
+
+# Load secrets (not in public repo)
+[[ -f ~/.secrets ]] && source ~/.secrets

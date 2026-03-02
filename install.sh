@@ -26,6 +26,9 @@ ln -sf "$DOTFILES_DIR/gemini/sync-sessions.sh" "$HOME/.gemini/sync-sessions.sh"
 # iterm2
 "$DOTFILES_DIR/iterm2/setup.sh"
 
+# secrets (iCloud 동기화)
+ln -sf "$HOME/Library/Mobile Documents/com~apple~CloudDocs/.secrets" "$HOME/.secrets"
+
 # shortcut
 ln -sf "$HOME/develop/code/juniqlim" "$HOME/j"
 
