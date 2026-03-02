@@ -38,6 +38,8 @@ alias ge="gemini -y"
 alias aa='cd ~/ai-agent'
 alias jn='cd ~/j/note'
 alias df='cd ~/j/dotfiles'
+alias ji='cd ~/j/note/investment'
+alias gt='cd ~/j/growterm'
 alias ccs="bun /Users/juniq/develop/code/juniqlim/claude-skin/src/index.tsx --effort low --append-system-prompt 'PC통신체로 짧게 답변' --dangerously-skip-permissions"
 export NODE_OPTIONS='--no-deprecation'
 
@@ -58,3 +60,5 @@ jpcc() { cd ~/j/note/programming && cc; }
 
 # Load secrets (not in public repo)
 [[ -f ~/.secrets ]] && source ~/.secrets
+
+alias cr='cc -r'

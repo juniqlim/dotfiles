@@ -1,5 +1,5 @@
-model = "gpt-5.3-codex-spark"
-model_reasoning_effort = "high"
+model = "gpt-5.3-codex"
+model_reasoning_effort = "xhigh"
 [projects."/Users/juniq/ai-agent"]
 trust_level = "trusted"
 
