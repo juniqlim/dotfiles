@@ -18,7 +18,7 @@ if [ ! -d ".git" ]; then
 fi
 
 # pull remote sessions
-git pull --rebase 2>/dev/null
+git pull --rebase --autostash 2>/dev/null
 
 # push local sessions
 git add -A
