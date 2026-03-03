@@ -36,6 +36,7 @@ alias cc="claude --dangerously-skip-permissions"
 alias cx="codex --dangerously-bypass-approvals-and-sandbox"
 alias ge="gemini -y"
 alias aa='cd ~/ai-agent'
+alias tk='cd ~/ai-agent/think'
 alias jn='cd ~/j/note'
 alias df='cd ~/j/dotfiles'
 alias ji='cd ~/j/note/investment'
@@ -62,3 +63,5 @@ jpcc() { cd ~/j/note/programming && cc; }
 [[ -f ~/.secrets ]] && source ~/.secrets
 
 alias cr='cc -r'
+
+[[ -f "\/Users/juniq/.config/kaku/zsh/kaku.zsh" ]] && source "\/Users/juniq/.config/kaku/zsh/kaku.zsh" # Kaku Shell Integration
