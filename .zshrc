@@ -41,6 +41,7 @@ alias jn='cd ~/j/note'
 alias df='cd ~/j/dotfiles'
 alias ji='cd ~/j/note/investment'
 alias gt='cd ~/j/growterm'
+alias tk='cd ~/j/think'
 alias ccs="bun /Users/juniq/develop/code/juniqlim/claude-skin/src/index.tsx --effort low --append-system-prompt 'PC통신체로 짧게 답변' --dangerously-skip-permissions"
 export NODE_OPTIONS='--no-deprecation'
 
