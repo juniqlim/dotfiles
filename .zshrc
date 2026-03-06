@@ -66,3 +66,7 @@ jpcc() { cd ~/j/note/programming && cc; }
 alias cr='cc -r'
 
 [[ -f "\/Users/juniq/.config/kaku/zsh/kaku.zsh" ]] && source "\/Users/juniq/.config/kaku/zsh/kaku.zsh" # Kaku Shell Integration
+eval "$(zoxide init zsh)"
+alias re="cd ~/j/resume"
+
+alias tb="cd /Users/juniq/ai-agent/think/buddha"
