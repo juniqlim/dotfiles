@@ -33,3 +33,5 @@ ln -sf "$HOME/Library/Mobile Documents/com~apple~CloudDocs/.secrets" "$HOME/.sec
 ln -sf "$HOME/develop/code/juniqlim" "$HOME/j"
 
 echo "dotfiles linked."
+
+"$DOTFILES_DIR/sync.sh"
