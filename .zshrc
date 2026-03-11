@@ -34,6 +34,7 @@ export PATH="$HOME/.local/bin:$PATH"
 alias cl='claude'
 alias cc="claude --dangerously-skip-permissions"
 alias cx="codex --dangerously-bypass-approvals-and-sandbox"
+alias cxr="cx resume"
 alias ge="gemini -y"
 alias aa='cd ~/ai-agent'
 alias tk='cd ~/ai-agent/think'
@@ -70,3 +71,4 @@ eval "$(zoxide init zsh)"
 alias re="cd ~/j/resume"
 
 alias tb="cd /Users/juniq/ai-agent/think/buddha"
+alias bo='cd /Users/juniq/ai-agent/book'
