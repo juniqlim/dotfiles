@@ -3,6 +3,12 @@ model_reasoning_effort = "xhigh"
 [projects."/Users/juniq/ai-agent"]
 trust_level = "trusted"
 
+[projects."/Users/juniq/develop/code/juniqlim/growterm"]
+trust_level = "trusted"
+
+[projects."/Users/juniq/develop/code/juniqlim/resume"]
+trust_level = "trusted"
+
 [notice.model_migrations]
 "gpt-5.2-codex" = "gpt-5.3-codex"
 
