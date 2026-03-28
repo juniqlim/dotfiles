@@ -61,6 +61,7 @@ load_plist() {
     return
   fi
 
+  launchctl bootout "gui/$USER_ID/$label" >/dev/null 2>&1 || true
   launchctl bootout "gui/$USER_ID" "$plist_path" >/dev/null 2>&1 || true
   launchctl bootstrap "gui/$USER_ID" "$plist_path"
   launchctl enable "gui/$USER_ID/$label"
