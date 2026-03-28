@@ -36,6 +36,9 @@ trust_level = "trusted"
 [projects."/Users/juniq/develop/code/other/openai-python-2"]
 trust_level = "trusted"
 
+[projects."/Users/juniq/develop/code/juniqlim/dotfiles"]
+trust_level = "trusted"
+
 [notice.model_migrations]
 "gpt-5.2-codex" = "gpt-5.3-codex"
 

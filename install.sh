@@ -38,4 +38,5 @@ ln -sf "$HOME/develop/code/juniqlim" "$HOME/j"
 
 echo "dotfiles linked."
 
+"$DOTFILES_DIR/setup-launchd.sh"
 "$DOTFILES_DIR/sync.sh"
