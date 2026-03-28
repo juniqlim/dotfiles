@@ -1,14 +1,24 @@
 font_family = "FiraCodeNerdFontMono-Retina"
-font_size = 32
-pomodoro = true
-response_timer = true
-coaching = true
-transparent_tab_bar = true
-header_opacity = 0.8
-coaching_command = "claude --system-prompt '아래는 터미널에서 25분간 작업한 내용입니다. 탭별로 구분되어 있습니다. 당신은 코치입니다. 판단하거나 가르치지 마세요. 관찰한 내용을 짧게 알려주고, 사용자가 미처 보지 못했을 부분을 질문으로 던져주세요. 한국어로 3-4문장 이내로 답하세요.' -p"
+font_size = 32.0
+pomodoro = false
 pomodoro_work_minutes = 25
 pomodoro_break_minutes = 3
-window_width = 800
-window_height = 600
-window_x = 400
-window_y = 0
+response_timer = true
+coaching = false
+transparent_tab_bar = true
+header_opacity = 0.800000011920929
+coaching_command = "claude --system-prompt '아래는 터미널에서 25분간 작업한 내용입니다. 탭별로 구분되어 있습니다. 당신은 코치입니다. 판단하거나 가르치지 마세요. 관찰한 내용을 짧게 알려주고, 사용자가 미처 보지 못했을 부분을 질문으로 던져주세요. 한국어로 3-4문장 이내로 답하세요.' -p"
+window_width = 800.0
+window_height = 600.0
+window_x = 400.0
+window_y = 0.0
+
+[copy_mode_keys]
+down = ["j"]
+up = ["k"]
+visual = ["v"]
+half_page_down = ["h", "d"]
+half_page_up = ["l", "u"]
+yank = ["y"]
+open_url = ["o"]
+exit = ["q", "Escape", "`"]
