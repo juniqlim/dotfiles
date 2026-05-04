@@ -52,7 +52,7 @@ trust_level = "trusted"
 status_line = ["current-dir", "context-remaining", "five-hour-limit", "weekly-limit", "model-with-reasoning"]
 
 [tui.model_availability_nux]
-"gpt-5.5" = 2
+"gpt-5.5" = 3
 
 [plugins."github@openai-curated"]
 enabled = true
