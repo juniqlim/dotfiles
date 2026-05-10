@@ -3,6 +3,7 @@
     "type": "command",
     "command": "sh /Users/juniq/.claude/statusline-command.sh"
   },
+  "model": "claude-opus-4-6[1m]",
   "effortLevel": "low",
   "skipDangerousModePermissionPrompt": true,
   "voiceEnabled": true
