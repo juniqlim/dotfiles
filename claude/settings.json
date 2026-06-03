@@ -3,7 +3,7 @@
     "type": "command",
     "command": "sh /Users/juniq/.claude/statusline-command.sh"
   },
-  "effortLevel": "xhigh",
+  "effortLevel": "high",
   "skipDangerousModePermissionPrompt": true,
   "voiceEnabled": true
 }
