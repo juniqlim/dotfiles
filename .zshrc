@@ -33,6 +33,7 @@ export PATH="$HOME/.local/bin:$PATH"
 # Claude Code alias
 alias cl='claude'
 alias cc="claude --dangerously-skip-permissions"
+alias ccc="clear && cc"
 alias cx="codex --dangerously-bypass-approvals-and-sandbox"
 alias cxr="cx resume"
 alias ge="gemini -y"
@@ -54,7 +55,6 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Helper functions
-ccc() { cd ~/cc && cc; }
 jicc() { cd ~/j/note/investment && cc; }
 jncc() { cd ~/j/note && cc; }
 aac() { cd ~/ai-agent && cc; }
