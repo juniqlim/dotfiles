@@ -4,6 +4,7 @@
     "command": "sh /Users/juniq/.claude/statusline-command.sh"
   },
   "effortLevel": "high",
+  "language": "korean",
   "skipDangerousModePermissionPrompt": true,
   "voiceEnabled": true
 }
