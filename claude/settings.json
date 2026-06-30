@@ -9,5 +9,17 @@
   "skipDangerousModePermissionPrompt": true,
   "autoCompactEnabled": true,
   "voiceEnabled": true,
-  "disableClaudeAiConnectors": true
+  "disableClaudeAiConnectors": true,
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[최우선] 답변은 심플디자인을 따른다. 번호가 우선순위이며 충돌하면 위가 이긴다. 1) 목적을 달성한다. 2) 의도를 드러낸다. 3) 중복이 없다. 4) 최소한의 요소(문장, 단어 등)로 구성한다. 짧게 만들려다 목적·의도를 해치지 않는다.'"
+          }
+        ]
+      }
+    ]
+  }
 }
