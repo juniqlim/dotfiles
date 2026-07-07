@@ -18,7 +18,7 @@
     "command": "sh /Users/juniq/.claude/statusline-command.sh"
   },
   "language": "korean",
-  "effortLevel": "medium",
+  "effortLevel": "high",
   "tui": "default",
   "skipDangerousModePermissionPrompt": true,
   "autoCompactEnabled": true,
