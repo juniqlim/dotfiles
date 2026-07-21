@@ -1,5 +1,5 @@
 {
-  "model": "claude-opus-4-8[1m]",
+  "model": "opus[1m]",
   "disableClaudeAiConnectors": true,
   "hooks": {
     "UserPromptSubmit": [
@@ -18,7 +18,7 @@
     "command": "sh /Users/juniq/.claude/statusline-command.sh"
   },
   "language": "korean",
-  "effortLevel": "medium",
+  "effortLevel": "high",
   "tui": "default",
   "skipDangerousModePermissionPrompt": true,
   "autoCompactEnabled": true,
