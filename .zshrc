@@ -39,6 +39,7 @@ alias cxr="cx resume"
 alias ge="gemini -y"
 alias aa='cd ~/ai-agent'
 alias tk='cd ~/ai-agent/think'
+alias j='cd ~/develop/code/juniqlim'
 alias jn='cd ~/j/note'
 alias df='cd ~/j/dotfiles'
 alias ji='cd ~/j/note/investment'
@@ -72,3 +73,6 @@ alias re="cd ~/j/resume"
 
 alias tb="cd /Users/juniq/ai-agent/think/buddha"
 alias bo='cd /Users/juniq/ai-agent/book'
+
+# 프로젝트 공용 시크릿 (권한 600)
+[ -f ~/.config/juniq/secrets.env ] && { set -a; source ~/.config/juniq/secrets.env; set +a; }
