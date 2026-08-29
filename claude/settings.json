@@ -21,5 +21,6 @@
   "tui": "default",
   "skipDangerousModePermissionPrompt": true,
   "autoCompactEnabled": true,
-  "voiceEnabled": true
+  "voiceEnabled": true,
+  "agentPushNotifEnabled": true
 }
