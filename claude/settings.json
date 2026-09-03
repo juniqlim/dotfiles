@@ -1,4 +1,5 @@
 {
+  "model": "claude-fable-5[1m]",
   "disableClaudeAiConnectors": true,
   "hooks": {
     "UserPromptSubmit": [
@@ -18,9 +19,14 @@
   },
   "language": "korean",
   "effortLevel": "high",
+  "modelSettings": {
+    "claude-fable-5": {
+      "effortLevel": "low"
+    }
+  },
   "tui": "default",
   "skipDangerousModePermissionPrompt": true,
   "autoCompactEnabled": true,
-  "voiceEnabled": true,
-  "agentPushNotifEnabled": true
+  "agentPushNotifEnabled": true,
+  "voiceEnabled": true
 }
