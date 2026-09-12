@@ -1,5 +1,5 @@
 {
-  "model": "claude-fable-5[1m]",
+  "model": "opus[1m]",
   "disableClaudeAiConnectors": true,
   "hooks": {
     "UserPromptSubmit": [
@@ -22,6 +22,9 @@
   "modelSettings": {
     "claude-fable-5": {
       "effortLevel": "low"
+    },
+    "claude-opus-5": {
+      "effortLevel": "high"
     }
   },
   "tui": "default",
