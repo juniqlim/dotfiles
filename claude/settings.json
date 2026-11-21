@@ -1,5 +1,5 @@
 {
-  "model": "opus",
+  "model": "fable",
   "disableClaudeAiConnectors": true,
   "hooks": {
     "UserPromptSubmit": [
